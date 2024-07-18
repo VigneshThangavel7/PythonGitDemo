@@ -21,6 +21,8 @@ file = open("testData.txt")
 listContent = file.readlines()  # this function stores all the contents inside the list
 print(listContent)
 print(listContent[0])
+print("one")
+print("two")
 
 for i in listContent:  # using for loop we can print all the data inside the list
     print(i)
