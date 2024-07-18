@@ -16,6 +16,18 @@ file = open("testData.txt")
 
 # another way
 # git example
+# print(file.read())  # using read() we can read all the content of the respective file
+
+# print(file.read(2))  # reads only the specific size
+
+# print(file.readline())  # reads only single line
+# print(file.readline())
+
+# read the file line by line using while loop
+#line = file.readline()
+#while line != "":
+#    print(line)
+#    line = file.readline()
 listContent = file.readlines()  # this function stores all the contents inside the list
 print(listContent)
 print(listContent[0])
