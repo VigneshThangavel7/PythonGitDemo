@@ -24,6 +24,11 @@ print(listContent[0])
 print("one")
 print("two")
 
+
+def git():
+    print("new function")
+
+
 for i in listContent:  # using for loop we can print all the data inside the list
     print(i)
 
