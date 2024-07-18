@@ -15,6 +15,7 @@ file = open("testData.txt")
 #    line = file.readline()
 
 # another way
+# git example
 listContent = file.readlines()  # this function stores all the contents inside the list
 print(listContent)
 print(listContent[0])
